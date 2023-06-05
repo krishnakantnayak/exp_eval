@@ -31,4 +31,6 @@ async function solveExpressions(expressions) {
 // test cases hardcoded
 const exp1 = ['2 * 4 * 4', '5 / (7 - 5)', 'sqrt(5^2 - 4^2)', 'end'];
 const exp2 = ['2 * 4 * 4 * 2 * pow(10,2)', 'end'];
+
 solveExpressions(exp2);
+solveExpressions(exp1);
